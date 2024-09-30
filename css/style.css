@@ -1,0 +1,17 @@
+body{
+    background-color: #46302E;
+    color: #C52921;
+    font-family: "Pirata One", "Times New Roman", serif;
+}
+
+header{
+    text-align: center;
+  font-size: 20pt;
+}
+#hero, footer{
+  text-align: center;
+  background-color: #332B2B ;
+  border:10px solid #9B3934;
+}
+
+
