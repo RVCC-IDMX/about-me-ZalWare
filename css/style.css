@@ -13,5 +13,12 @@ header{
   background-color: #332B2B ;
   border:10px solid #9B3934;
 }
+#gallery figure{
+  border: 10px solid #9B3934;
+  text-align: center;
+  padding: 30px;
+  margin: 30px;
+
+}
 
 
