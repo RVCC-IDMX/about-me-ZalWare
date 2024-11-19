@@ -15,10 +15,17 @@ header{
 }
 #gallery figure{
   border: 10px solid #9B3934;
+  background-color: #332B2B ;
   text-align: center;
   padding: 30px;
   margin: 30px;
 
 }
-
+#article{
+border: 10px solid #9B3934; 
+background-color: #332B2B ;
+padding: 30px;
+margin: 30px;
+text-align: left;
+}
 
