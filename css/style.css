@@ -41,7 +41,23 @@ header{
 }
 #gallery img{
   max-width: 100%;
+  border: 5px dashed #C52921;
 }
+#video {
+display:flex;
+flex-direction: column;
+background-color: #332B2B ;
+border: 10px solid #9B3934;
+padding:3em;
+}
+ #myVideo {
+  max-width: 100%;
+  margin: auto;
+  border: 5px dashed #C52921;
+}
+
+
+
 #article{
   display: flex;
   flex-direction: column;
@@ -79,17 +95,23 @@ text-align: left;
   }
   figure img{
     max-width: 100%;
-    margin:1rem;
+    
   }
 #article div{
   max-width: 100%;
   columns: 20rem;
 }
-
+video{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+#myVideo{
+  max-width: 100%;
+}
 }
 
 /*large screen*/
-@media screen and (min-width: 100em){
+@media screen and (min-width: 90em){
  #gallery{
   display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -103,4 +125,5 @@ text-align: left;
   figure{
     display: block;
   }
+ 
 }
